@@ -1,0 +1,170 @@
+.about-page {
+    width: 100%;
+    height: 300px;
+    background-image: url("../img/header-page.jpg");
+    background-size: cover;
+}
+
+.about-page h1 {
+    font-size: 60px;
+    font-weight: 800;
+    color: #fff;
+    margin-top: 90px;
+    margin-left: 50px;
+}
+
+.about-page p {
+    font-size: 19px;
+    color: #fff;
+    margin-bottom: 50px;
+    margin-left: 50px;
+    
+}
+
+.about-page span {
+    color: blue;
+    font-weight: 300;
+}
+
+
+.services-page {
+    margin-bottom: 100px;
+}
+
+.contect-page h5{
+    font-size: 17px;
+    font-weight: 300;
+    border: 1px solid #70a7ff;
+    display: inline;
+    padding: 6px 24px;
+    border-radius: 30px;
+}
+
+.contect-page{
+   margin-bottom: 50px;
+}
+
+.contect-page h1{
+    font-size: 40px;
+}
+
+.contect-page p{
+    font-size: 18px;
+    margin-top: 30px;
+    color: gray;
+}
+
+.contect-page a{
+    font-size: 18px;
+}
+
+.contect-page a:hover{
+    text-decoration: none;  
+}
+
+.contect-page .map{
+    border-radius: 5px; 
+}
+
+.contect{
+    height: 170px;
+    background-color:#c5d9fb92;
+    border-radius: 5px;
+    display: flex;
+    margin-top: 100px;
+    padding: 40px 50px;
+}
+
+.contect .calll{
+    width: 55px;
+    height: 55px;
+    background-color: #fff;
+    border-radius: 50%;
+    margin-top: 10px;
+    margin-right: 20px;
+    font-size: 20px;
+    color: blue;
+    padding-left: 18px;
+    padding-top: 10px;
+}
+
+.contect .phone p{
+    font-size: 17px;
+    color: gray;
+    margin-top: 10px;
+}
+
+.contect .phone h3{
+    font-size: 20px;
+    font-weight: 700;
+    margin-top: 10px;
+}
+
+.map{
+    margin-top: 25px;
+}
+
+.erorr{
+    width: 100%;
+    margin: 80px auto;
+    text-align: center;
+}
+
+.erorr .fa{
+    font-size: 70px;
+    color: #044bbd;
+}
+
+.erorr h1{
+    font-size:80px;
+    font-weight: 900;
+    color: black;
+}
+
+.erorr h2{
+    font-size:40px;
+    color: black;
+    font-weight: 800;
+}
+
+.erorr p{
+    font-size:18px;
+    margin-top: 30px;
+    color: gray;
+}
+
+.erorr .go{
+    width: 250px;
+    height: 55px;
+    background-color: #1f66d8;
+    border-radius: 40px;
+    color: #fff;
+    border: none;
+    margin-top: 20px;
+    font-size: 18px;
+}
+
+.erorr .go:hover{
+    background-color: #044bbd;
+}
+
+@media only screen and (max-width:1190px) {
+    
+    .last-footer .leftt{
+        position: absolute;
+    }
+   
+}
+
+
+@media only screen and (max-width:520px) {
+    
+    .about-page h1 {
+        margin-left: 10px;
+    }
+    
+    .about-page p {
+        margin-left: 10px;
+        
+    }
+}
